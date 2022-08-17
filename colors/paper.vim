@@ -53,8 +53,8 @@ command! -nargs=+ Hi call s:Hi(<f-args>)
 
 " Available colors
 let s:colors = {
-\  'background': '#f2eede',
-\  'lbackground': '#f7f3e3',
+\  'background': '#EBE5CC',
+\  'lbackground': '#f2eede',
 \  'black': '#000000',
 \  'blue': '#1e6fcc',
 \  'green': '#216609',
@@ -216,6 +216,10 @@ hi! link cssIdentifier Keyword
 hi! link cssImportant Keyword
 hi! link cssProp Identifier
 hi! link cssTagName Keyword
+
+" CoC
+hi! link CocMenuSel PmenuSel
+Hi CocSearch green None bold
 
 " Diffs
 Hi DiffAdd NONE lgreen NONE
