@@ -349,6 +349,9 @@ hi! link shFunctionKey Keyword
 " SQL
 hi! link sqlKeyword Keyword
 
+" Telescope
+Hi TelescopeMatching green NONE bold
+
 " Typescript
 hi! link typescriptBraces Operator
 hi! link typescriptEndColons Operator
