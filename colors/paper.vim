@@ -55,6 +55,7 @@ command! -nargs=+ Hi call s:Hi(<f-args>)
 let s:colors = {
 \  'background': '#EBE5CC',
 \  'lbackground': '#f2eede',
+\  'dbackground': '#e4dcba',
 \  'black': '#000000',
 \  'blue': '#1e6fcc',
 \  'green': '#216609',
@@ -149,8 +150,8 @@ Hi NormalFloat black background NONE
 Hi Bold black NONE bold
 Hi Number blue NONE NONE
 Hi Operator black NONE NONE
-Hi Pmenu black lgrey1 NONE
-Hi PmenuSel black lgrey2 bold
+Hi Pmenu black background NONE
+Hi PmenuSel green lgrey2 bold
 Hi PreProc black NONE NONE
 Hi Question black NONE NONE
 Hi Regexp orange NONE NONE
@@ -217,9 +218,8 @@ hi! link cssImportant Keyword
 hi! link cssProp Identifier
 hi! link cssTagName Keyword
 
-" CoC
-hi! link CocMenuSel PmenuSel
-Hi CocSearch green None bold
+" Cmp
+Hi CmpItemAbbrMatch green None bold
 
 " Diffs
 Hi DiffAdd NONE lgreen NONE
@@ -303,6 +303,18 @@ hi! link markdownOrderedListMarker Keyword
 
 " netrw
 hi! link netrwClassify Identifier
+
+" nvim-dap-ui
+hi! link DapUILineNumber Constant
+hi! link DapUIDecoration Constant
+hi! link DapUIScope Constant
+hi! link DapUIBreakpointsPath String
+hi! link DapUIType String
+hi! link DapUIThread String
+hi! link DapUIStoppedThread String
+hi! link DapUIBreakpointsCurrentLine Constant
+hi! link DapUIModifiedValue Keyword
+Hi DapUISource purple NONE NONE
 
 " Perl
 hi! link perlPackageDecl Identifier
