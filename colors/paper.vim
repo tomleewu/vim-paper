@@ -364,6 +364,9 @@ hi! link sqlKeyword Keyword
 " Telescope
 Hi TelescopeMatching green NONE bold
 
+" nvim-treesitter-context
+hi! link TreesitterContext CursorLine 
+
 " Typescript
 hi! link typescriptBraces Operator
 hi! link typescriptEndColons Operator
