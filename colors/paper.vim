@@ -267,6 +267,9 @@ hi! link inkoCommentInlineUrl Number
 hi! link inkoInstanceVariable Directory
 hi! link inkoKeywordArgument Regexp
 
+" indent_blankline
+Hi IndentBlanklineChar lgrey1 None None
+
 " Java
 hi! link javaAnnotation Directory
 hi! link javaCommentTitle javaComment
