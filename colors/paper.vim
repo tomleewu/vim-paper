@@ -127,10 +127,12 @@ endif
 " simply use its name (e.g. "black").
 
 " Generic highlight groups
+Hi Function black NONE NONE
 Hi ColorColumn NONE lbackground NONE
 Hi Comment grey NONE NONE
 Hi Conceal NONE NONE NONE
 Hi Constant black NONE NONE
+Hi Cursearch NONE lyellow NONE
 Hi Cursor NONE lgrey1 NONE
 Hi CursorLine NONE lbackground NONE
 Hi CursorLineNR black NONE bold
@@ -177,6 +179,7 @@ Hi DiagnosticInfo green NONE NONE
 Hi DiagnosticSignInfo green NONE NONE
 Hi DiagnosticWarn orange NONE NONE
 Hi DiagnosticError red NONE NONE
+Hi DiagnosticHint cyan NONE NONE
 
 hi! link NotifyINFOIcon DiagnosticInfo
 hi! link NotifyINFOTitle DiagnosticInfo
@@ -399,11 +402,12 @@ hi! link yardType Todo
 hi! link yardTypeList Todo
 
 " Noice
-Hi NoiceCmdlinePopup black lbackground NONE
+Hi NoiceCmdlinePopup black background NONE
 Hi NoiceCmdlinePopupTitle black NONE NONE
 Hi NoiceCmdlinePopupBorder black NONE NONE
 Hi NoiceCmdlineIcon black NONE NONE
 Hi NoiceCursor white black NONE
+Hi NoiceVirtualText cyan NONE NONE
 
 delcommand Hi
 
