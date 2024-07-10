@@ -71,7 +71,8 @@ let s:colors = {
 \  'orange': '#a55000',
 \  'purple': '#5c21a5',
 \  'white': '#ffffff',
-\  'cyan': '#158c86'
+\  'cyan': '#158c86',
+\  'leapred': '#ffaa99'
 \ }
 
 " We require/expect true colour support, and make no attempt at supporting UIs
@@ -290,6 +291,9 @@ hi! link javaScriptMember Identifier
 
 " JSON
 hi! link jsonKeyword String
+
+" Leap.nvim
+Hi LeapLabel NONE leapred NONE
 
 " Lua
 hi! link luaFunction Keyword
