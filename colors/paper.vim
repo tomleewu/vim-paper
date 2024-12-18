@@ -214,6 +214,10 @@ Hi ALEErrorSign red NONE bold
 Hi ALEWarning orange NONE bold
 Hi ALEWarningSign orange NONE bold
 
+" Blink.cmp
+Hi BlinkCmpGhostText lgrey1 NONE NONE
+Hi BlinkCmpSource lgrey2 NONE NONE
+
 " CSS
 hi! link cssClassName Keyword
 hi! link cssColor Number
