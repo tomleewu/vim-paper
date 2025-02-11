@@ -253,12 +253,6 @@ Hi hamlId black NONE NONE
 Hi hamlTag black NONE bold
 hi! link hamlDocType Comment
 
-" hop.nvim
-Hi HopNextKey red NONE bold
-Hi HopNextKey1 yellow NONE NONE
-Hi HopNextKey2 yellow NONE NONE
-hi! clear HopUnmatched
-
 " HTML
 Hi htmlTag black NONE bold
 hi! link htmlArg Identifier
@@ -295,9 +289,6 @@ hi! link javaScriptMember Identifier
 
 " JSON
 hi! link jsonKeyword String
-
-" Leap.nvim
-Hi LeapLabel NONE leapred NONE
 
 " Lua
 hi! link luaFunction Keyword
@@ -373,6 +364,11 @@ hi! link sassId cssIdentifier
 
 " Shell
 hi! link shFunctionKey Keyword
+
+" Snacks
+hi! link SnacksPickerDir Constant
+Hi SnacksPickerMatch green NONE NONE
+Hi SnacksPickerListCursorLine NONE lgrey1 bold
 
 " SQL
 hi! link sqlKeyword Keyword
