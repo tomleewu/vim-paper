@@ -144,7 +144,7 @@ Hi Identifier black NONE NONE
 Hi Include black NONE bold
 Hi Keyword black NONE bold
 Hi LineNr black NONE NONE
-Hi Macro orange NONE bold,underline
+Hi Macro orange NONE NONE
 Hi MatchParen NONE NONE bold
 Hi MoreMsg black NONE NONE
 Hi NonText background NONE NONE
