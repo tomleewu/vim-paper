@@ -215,7 +215,7 @@ Hi ALEWarning orange NONE bold
 Hi ALEWarningSign orange NONE bold
 
 " Blink.cmp
-Hi BlinkCmpGhostText lgrey1 NONE NONE
+Hi BlinkCmpGhostText grey NONE NONE
 Hi BlinkCmpSource lgrey2 NONE NONE
 
 " CSS
