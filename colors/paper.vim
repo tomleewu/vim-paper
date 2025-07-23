@@ -135,6 +135,7 @@ Hi Conceal NONE NONE NONE
 Hi Constant black NONE NONE
 Hi Cursearch NONE lyellow NONE
 Hi Cursor NONE lgrey1 NONE
+Hi iCursor black black NONE
 Hi CursorLine NONE lbackground NONE
 Hi CursorLineNR black NONE bold
 Hi Directory purple NONE NONE
